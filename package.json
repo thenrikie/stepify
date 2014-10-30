@@ -1,0 +1,30 @@
+{
+  "name": "stepify",
+  "version": "0.1.0",
+  "description": "A very simple jquery plugin the stepify large form/blocks",
+  "main": "./lib/stepify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thenrikie/stepify"
+  },
+  "keywords": [
+    "pagify",
+    "stepify"
+  ],
+  "author": "Henry Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenrikie/stepify/issues"
+  },
+  "homepage": "https://github.com/thenrikie/stepify",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-preprocess": "^4.0.0",
+    "load-grunt-tasks": "^1.0.0"
+  }
+}
