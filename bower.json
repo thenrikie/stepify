@@ -1,0 +1,27 @@
+{
+  "name": "stepify",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thenrikie/stepify",
+  "authors": [
+    "Henry Liu <thenrikie@hotmail.com>"
+  ],
+  "description": "Very simple jquery plugin to split large form or block into steps. No CSS and no extra DOM element added",
+  "main": "./lib/stepify.js",
+  "keywords": [
+    "stepify",
+    "pagify"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+	"src",
+	"package.json"
+  ],
+   "dependencies": {
+	"jquery": "^1.8.0",
+	}
+}
