@@ -37,6 +37,16 @@ The default options
     
     // When first initialized, which tab to show 
     tabShow : 0
+    
+    // function to hide the block
+		hideTranFunc : 'hide',
+		// function args
+		hideTransitFuncParam : null,
+		
+		// function to show the block
+		showTranFunc : 'show',
+		// function args
+		showTransitFuncParam : null,
 }
 ```
 
@@ -49,7 +59,7 @@ Example HTML to be stepify
       <input type="button" value="Next" class="page-next">
   </section>
   <section>
-      First Section
+      Second Section
       <input type="button" value="Back" class="page-back">
       <input type="button" value="Next" class="page-next">
   </section>
