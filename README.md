@@ -39,14 +39,14 @@ The default options
     tabShow : 0
     
     // function to hide the block
-		hideTranFunc : 'hide',
-		// function args
-		hideTransitFuncParam : null,
-		
-		// function to show the block
-		showTranFunc : 'show',
-		// function args
-		showTransitFuncParam : null,
+    hideTranFunc : 'hide',
+    // function args
+    hideTransitFuncParam : null,
+
+    // function to show the block
+    showTranFunc : 'show',
+    // function args
+    showTransitFuncParam : null,
 }
 ```
 
